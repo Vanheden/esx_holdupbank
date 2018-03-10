@@ -6,7 +6,7 @@ client_scripts {
 	'locales/br.lua',
 	'locales/en.lua',
 	'locales/fr.lua',
-	'locales/sv.lua'
+	'locales/sv.lua',
 	'config.lua',
 	'client/client.lua'
 }
