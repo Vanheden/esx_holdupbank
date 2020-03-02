@@ -71,6 +71,8 @@ AddEventHandler('esx_holdupbank:robberycomplete', function(robb)
 	bank = ""
 	secondsRemaining = 0
 	incircle = false
+	local ped = GetPlayerPed(-1)
+	ClearPedTasksImmediately(ped)
 end)
 
 Citizen.CreateThread(function()
